@@ -1,0 +1,8 @@
+# IDE Exclusions
+*.iml
+.idea/
+
+# Node generated files
+package/
+node_modules/
+npm-debug.log

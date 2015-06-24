@@ -1,0 +1,39 @@
+{
+  "name": "eslint-config-openstack",
+  "version": "1.0.0",
+  "description": "JavaScript Style Guidelines for OpenStack.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    ".eslintrc",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "jasmine",
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:krotscheck/eslint-config-openstack.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "openstack"
+  ],
+  "author": "OpenStack <openstack-dev@lists.openstack.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/krotscheck/eslint-config-openstack/issues"
+  },
+  "homepage": "https://github.com/krotscheck/eslint-config-openstack",
+  "peerDependencies": {
+    "eslint": "0.23.0"
+  },
+  "devDependencies": {
+    "eslint": "0.23.0",
+    "jasmine": "^2.3.1",
+    "js-yaml": "3.3.1"
+  }
+}
