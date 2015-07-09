@@ -33,7 +33,9 @@
   },
   "devDependencies": {
     "eslint": "0.23.0",
-    "jasmine": "^2.3.1",
-    "js-yaml": "3.3.1"
+    "jasmine": "2.3.1"
+  },
+  "dependencies": {
+    "js-yaml": "^3.3.1"
   }
 }
