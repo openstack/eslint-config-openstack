@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:krotscheck/eslint-config-openstack.git"
+    "url": "git://git.openstack.org/openstack/eslint-config-openstack"
   },
   "keywords": [
     "eslint",
