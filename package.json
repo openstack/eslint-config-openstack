@@ -25,7 +25,7 @@
   "author": "OpenStack <openstack-dev@lists.openstack.org>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/krotscheck/eslint-config-openstack/issues"
+    "url": "https://bugs.launchpad.net/eslint-config-openstack"
   },
   "homepage": "https://github.com/krotscheck/eslint-config-openstack",
   "peerDependencies": {
