@@ -29,10 +29,10 @@
   },
   "homepage": "https://wiki.openstack.org/wiki/QA",
   "peerDependencies": {
-    "eslint": "^0.23.0"
+    "eslint": "^1.0.0"
   },
   "devDependencies": {
-    "eslint": "0.23.0",
+    "eslint": "1.0.0",
     "jasmine": "2.3.1"
   },
   "dependencies": {
