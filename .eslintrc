@@ -538,8 +538,9 @@ rules:
   # This option sets a specific tab width for your code
   # http://eslint.org/docs/rules/indent
   indent:
-    - 2 # TODO(krotscheck): Discuss & Activate
     - 2
+    - 2
+    - SwitchCase: 1
 
   # Enforces spacing between keys and values in object literal properties
   # http://eslint.org/docs/rules/key-spacing
