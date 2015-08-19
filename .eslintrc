@@ -781,6 +781,7 @@ rules:
   max-len:
     - 2
     - 100
+    - 2
 
   # Limits the number of parameters that can be used in function declaration.
   # http://eslint.org/docs/rules/max-params
