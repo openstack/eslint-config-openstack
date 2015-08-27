@@ -170,7 +170,7 @@ rules:
 
   # Ensure JSDoc comments are valid
   # http://eslint.org/docs/rules/valid-jsdoc
-  valid-jsdoc: 0 # TODO(krotscheck): Discuss & Activate
+  valid-jsdoc: 2
 
   # Ensure that the results of typeof are compared against a valid string
   # http://eslint.org/docs/rules/valid-typeof
