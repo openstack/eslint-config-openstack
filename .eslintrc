@@ -288,7 +288,7 @@ rules:
 
   # Disallow use of multiple spaces
   # http://eslint.org/docs/rules/no-multi-spaces
-  no-multi-spaces: 0 # TODO(krotscheck): Discuss & Activate
+  no-multi-spaces: 2
 
   # Disallow use of multiline strings
   # http://eslint.org/docs/rules/no-multi-str
