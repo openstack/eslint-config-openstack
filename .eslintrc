@@ -186,7 +186,7 @@ rules:
 
   # Treat var statements as if they were block scoped
   # http://eslint.org/docs/rules/block-scoped-var
-  block-scoped-var: 0 # TODO(krotscheck): Discuss & Activate
+  block-scoped-var: 2
 
   # Specify the maximum cyclomatic complexity allowed in a program
   # http://eslint.org/docs/rules/complexity
