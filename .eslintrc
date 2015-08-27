@@ -103,7 +103,7 @@ rules:
 
   # Disallow empty block statements.
   # http://eslint.org/docs/rules/no-empty
-  no-empty: 0 # TODO(krotscheck): Discuss & Activate
+  no-empty: 2
 
   # Disallow assigning of the exception parameter in a catch block.
   # http://eslint.org/docs/rules/no-ex-assign
