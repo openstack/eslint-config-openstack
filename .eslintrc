@@ -456,7 +456,7 @@ rules:
 
   # Disallow declaration of variables that are not used in the code
   # http://eslint.org/docs/rules/no-unused-vars
-  no-unused-vars: 0 # TODO(krotscheck): Discuss & Activate
+  no-unused-vars: 2
 
   # Disallow use of variables before they are defined
   # http://eslint.org/docs/rules/no-use-before-define
