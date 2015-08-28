@@ -407,9 +407,7 @@ rules:
 
   # Require or disallow Yoda conditions.
   # http://eslint.org/docs/rules/yoda
-  yoda:
-    - 0 # TODO(krotscheck): Discuss & Activate
-    - "never"
+  yoda: 0
 
 
   #############################################################################
