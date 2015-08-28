@@ -19,6 +19,7 @@
  * as a module.
  */
 (function () {
+  "use strict";
 
   var yaml = require('js-yaml');
   var fs = require('fs');

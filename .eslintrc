@@ -418,7 +418,7 @@ rules:
   # controls location of Use Strict Directives
   # http://eslint.org/docs/rules/strict
   strict:
-    - 0 # TODO(krotscheck): Discuss & Activate
+    - 2
     - "function"
 
   #############################################################################

@@ -1,4 +1,5 @@
 describe("Unit: eslint-config-openstack", function() {
+  "use strict";
 
   it("should set espree as the default parser.", function() {
     var config = require('../index');
