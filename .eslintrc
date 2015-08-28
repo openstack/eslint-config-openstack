@@ -151,11 +151,6 @@ rules:
   # http://eslint.org/docs/rules/no-regex-spaces
   no-regex-spaces: 2
 
-  # Disallow reserved words being used as object literal keys
-  # Disabled- this is for ECMA3 backwards compatibility only.
-  # http://eslint.org/docs/rules/no-reserved-keys
-  no-reserved-keys: 0
-
   # Disallow sparse arrays
   # http://eslint.org/docs/rules/no-sparse-arrays
   no-sparse-arrays: 2
@@ -404,14 +399,6 @@ rules:
   #############################################################################
   # Strict Mode
   #############################################################################
-  # (Deprecated) require or disallow the "use strict" pragma in global scope
-  # http://eslint.org/docs/rules/global-strict
-  global-strict: 0
-
-  # (Deprecated) disallow unnecessary use of "use strict";
-  # http://eslint.org/docs/rules/no-extra-strict
-  no-extra-strict: 0
-
   # controls location of Use Strict Directives
   # http://eslint.org/docs/rules/strict
   strict:
@@ -608,10 +595,6 @@ rules:
   # http://eslint.org/docs/rules/no-new-object
   no-new-object: 1
 
-  # (Deprecated) Disallow space before semicolon
-  # http://eslint.org/docs/rules/no-space-before-semi
-  no-space-before-semi: 0
-
   # Disallow space between function identifier and application
   # http://eslint.org/docs/rules/no-spaced-func
   no-spaced-func: 0 # TODO(krotscheck): Discuss & Activate
@@ -631,10 +614,6 @@ rules:
   # Disallow the use of Boolean literals in conditional expressions
   # http://eslint.org/docs/rules/no-unneeded-ternary
   no-unneeded-ternary: 0 # TODO(krotscheck): Discuss & Activate
-
-  # Disallow wrapping of non-IIFE statements in parens
-  # http://eslint.org/docs/rules/no-wrap-func
-  no-wrap-func: 0 # TODO(krotscheck): Discuss & Activate
 
   # Require or disallow padding inside curly braces
   # http://eslint.org/docs/rules/object-curly-spacing
@@ -685,10 +664,6 @@ rules:
   # http://eslint.org/docs/rules/sort-vars
   sort-vars: 0
 
-  # (Deprecated) Require a space after function names
-  # http://eslint.org/docs/rules/space-after-function-name
-  space-after-function-name: 0
-
   # Require a space after certain keywords
   # http://eslint.org/docs/rules/space-after-keywords
   space-after-keywords: 2
@@ -704,14 +679,6 @@ rules:
   space-before-function-paren:
     - 0 # TODO(krotscheck): Discuss & Activate
     - "always"
-
-  # (Deprecated) Require or disallow space before function parentheses
-  # http://eslint.org/docs/rules/space-before-function-parentheses
-  space-before-function-parentheses: 0
-
-  # Require or disallow spaces inside brackets
-  # http://eslint.org/docs/rules/space-in-brackets
-  space-in-brackets: 0 # TODO(krotscheck): Discuss & Activate
 
   # require or disallow spaces inside parentheses
   # http://eslint.org/docs/rules/space-in-parens
@@ -732,14 +699,6 @@ rules:
     - words: true
       nonwords: false
 
-  # (deprecated) Require or disallow spaces before/after unary operators (words on by default, nonwords)
-  # http://eslint.org/docs/rules/space-unary-word-ops
-  space-unary-word-ops: 0
-
-  # Require or disallow a space immediately following the // in a line comment
-  # http://eslint.org/docs/rules/spaced-line-comment
-  spaced-line-comment: 0 # TODO(krotscheck): Discuss & Activate
-
   # require regex literals to be wrapped in parentheses
   # http://eslint.org/docs/rules/wrap-regex
   wrap-regex: 0
@@ -751,10 +710,6 @@ rules:
   # enforce the spacing around the * in generator functions
   # http://eslint.org/docs/rules/generator-star-spacing
   generator-star-spacing: 0
-
-  # (deprecated) enforce the position of the * in generator functions
-  # http://eslint.org/docs/rules/generator-star
-  generator-star: 0
 
   # require let or const instead of var
   # http://eslint.org/docs/rules/no-var
