@@ -116,8 +116,8 @@ rules:
   # Disallow extraneous parentheses around functions.
   # http://eslint.org/docs/rules/no-extra-parens
   no-extra-parens:
-    - 0 # TODO(krotscheck): Discuss & Activate
-    - "functions"
+    - 2
+    - "all"
 
   # Disallow extraneous semicolons.
   # http://eslint.org/docs/rules/no-extra-semi
