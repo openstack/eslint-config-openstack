@@ -657,7 +657,7 @@ rules:
 
   # Disallow the use of Boolean literals in conditional expressions
   # http://eslint.org/docs/rules/no-unneeded-ternary
-  no-unneeded-ternary: 0 # TODO(krotscheck): Discuss & Activate
+  no-unneeded-ternary: 2
 
   # Require or disallow padding inside curly braces
   # http://eslint.org/docs/rules/object-curly-spacing
