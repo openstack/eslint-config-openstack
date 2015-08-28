@@ -696,7 +696,10 @@ rules:
 
   # Enforce spacing before and after semicolons
   # http://eslint.org/docs/rules/semi-spacing
-  semi-spacing: 0 # TODO(krotscheck): Discuss & Activate
+  semi-spacing:
+    - 2
+    - before: false
+      after: true
 
   # Require or disallow use of semicolons instead of ASI
   # http://eslint.org/docs/rules/semi
