@@ -376,7 +376,7 @@ rules:
 
   # Require use of the second argument for parseInt()
   # http://eslint.org/docs/rules/radix
-  radix: 0 # TODO(krotscheck): Discuss & Activate
+  radix: 2
 
   # Requires to declare all vars on top of their containing scope
   #
