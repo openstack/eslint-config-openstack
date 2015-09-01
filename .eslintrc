@@ -331,7 +331,7 @@ rules:
 
   # Disallow declaring the same variable more than once
   # http://eslint.org/docs/rules/no-redeclare
-  no-redeclare: 0 # TODO(krotscheck): Discuss & Activate
+  no-redeclare: 2
 
   # Disallow use of assignment in return statement
   # http://eslint.org/docs/rules/no-return-assign
