@@ -14,21 +14,22 @@
  * under the License.
  */
 
+/*eslint-disable strict*/
+'use strict';
+/*eslint-enable strict*/
+
 /**
  * The default module for this package simply reads in the .eslintrc yaml file, and returns it
  * as a module.
  */
-(function () {
-  "use strict";
 
-  var yaml = require('js-yaml');
-  var fs = require('fs');
-  var path = require('path');
+var yaml = require('js-yaml');
+var fs = require('fs');
+var path = require('path');
 
-  /*eslint-disable no-sync */
-  var rcPath = path.join(__dirname, '.eslintrc');
-  var fileContent = fs.readFileSync(rcPath);
-  /*eslint-enable no-sync */
+/*eslint-disable no-sync */
+var rcPath = path.join(__dirname, '.eslintrc');
+var fileContent = fs.readFileSync(rcPath);
+/*eslint-enable no-sync */
 
-  module.exports = yaml.safeLoad(fileContent);
-})();
+module.exports = yaml.safeLoad(fileContent);
