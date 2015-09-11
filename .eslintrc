@@ -303,7 +303,7 @@ rules:
 
   # Disallow use of new operator when not part of the assignment or comparison
   # http://eslint.org/docs/rules/no-new
-  no-new: 0 # TODO(krotscheck): Discuss & Activate
+  no-new: 2
 
   # Disallow use of octal escape sequences in string literals, such as var foo = "Copyright \251";
   # http://eslint.org/docs/rules/no-octal-escape
