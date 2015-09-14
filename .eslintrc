@@ -191,7 +191,7 @@ rules:
 
   # Require return statements to either always or never specify values
   # http://eslint.org/docs/rules/consistent-return
-  consistent-return: 0 # TODO(krotscheck): Discuss & Activate
+  consistent-return: 2
 
   # Specify curly brace conventions for all control statements
   # http://eslint.org/docs/rules/curly
