@@ -32,6 +32,18 @@ describe("Unit: eslint-config-openstack", function() {
     /*eslint-enable guard-for-in */
   });
 
+  it("should have an opinion on every eslint default rule.", function() {
+    var eslintDefaults = require('eslint/conf/eslint.json');
+    var rules = require('../index').rules;
+
+    /*eslint-disable guard-for-in */
+    for (var ruleName in eslintDefaults.rules) {
+      expect(rules.hasOwnProperty(ruleName))
+        .toBeTruthy("Rule " + ruleName + " must be defined.");
+    }
+    /*eslint-enable guard-for-in */
+  });
+
   it("should only have opinions on rules that exist (no zombies).", function() {
     var eslintRules = require('eslint/conf/eslint.json').rules;
     var openstackRules = require('../index').rules;

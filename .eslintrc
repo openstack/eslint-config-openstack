@@ -171,6 +171,10 @@ rules:
   # http://eslint.org/docs/rules/valid-typeof
   valid-typeof: 2
 
+  # Avoid code that looks like two expressions but is actually one
+  # http://eslint.org/docs/rules/no-unexpected-multiline
+  no-unexpected-multiline: 0 # TODO(krotscheck): Discuss & Activate
+
   #############################################################################
   # Best Practices
   #############################################################################
@@ -261,9 +265,17 @@ rules:
   # http://eslint.org/docs/rules/no-floating-decimal
   no-floating-decimal: 2
 
+  # disallow the type conversions with shorter notations
+  # http://eslint.org/docs/rules/no-implicit-coercion
+  no-implicit-coercion: 0 # TODO(krotscheck): Discuss & Activate
+
   # Disallow use of eval()-like methods
   # http://eslint.org/docs/rules/no-implied-eval
   no-implied-eval: 2
+
+  # disallow this keywords outside of classes or class-like objects
+  # http://eslint.org/docs/rules/no-invalid-this
+  no-invalid-this: 0 # TODO(krotscheck): Discuss & Activate
 
   # Disallow usage of __iterator__ property
   # http://eslint.org/docs/rules/no-iterator
@@ -357,6 +369,10 @@ rules:
   # http://eslint.org/docs/rules/no-unused-expressions
   no-unused-expressions: 2
 
+  # disallow unnecessary .call() and .apply()
+  # http://eslint.org/docs/rules/no-useless-call
+  no-useless-call: 0 # TODO(krotscheck): Discuss & Activate
+
   # Disallow use of void operator
   # http://eslint.org/docs/rules/no-void
   no-void: 2
@@ -408,6 +424,10 @@ rules:
   #############################################################################
   # Variable declaration rules
   #############################################################################
+  # enforce or disallow variable initializations at definition
+  # http://eslint.org/docs/rules/init-declarations
+  init-declarations: 0 # TODO(krotscheck): Discuss & Activate
+
   # Disallow the catch clause parameter name being the same as a variable in
   # the outer scope
   # http://eslint.org/docs/rules/no-catch-shadow
@@ -453,6 +473,10 @@ rules:
   # Node.js rules
   #############################################################################
 
+  # enforce return after a callback
+  # http://eslint.org/docs/rules/callback-return
+  callback-return: 2
+
   # Enforces error handling in callbacks
   # http://eslint.org/docs/rules/handle-callback-err
   handle-callback-err: 2
@@ -486,6 +510,10 @@ rules:
   # Stylistic Changes
   #############################################################################
 
+  # enforce spacing inside array brackets
+  # http://eslint.org/docs/rules/array-bracket-spacing
+  array-bracket-spacing: 0 # TODO(krotscheck): Discuss & Activate
+
   # Enforce one true brace style
   # http://eslint.org/docs/rules/brace-style
   brace-style: 0 # TODO(krotscheck): Discuss & Activate
@@ -504,6 +532,10 @@ rules:
   # http://eslint.org/docs/rules/comma-style
   comma-style: 2
 
+  # require or disallow padding inside computed properties.
+  # http://eslint.org/docs/rules/computed-property-spacing
+  computed-property-spacing: 0 # TODO(krotscheck): Discuss & Activate
+
   # Enforces consistent naming when capturing the current execution context
   # http://eslint.org/docs/rules/consistent-this
   consistent-this:
@@ -521,6 +553,14 @@ rules:
   # Enforces use of function declarations or expressions
   # http://eslint.org/docs/rules/func-style
   func-style: 0
+
+  # this option enforces minimum and maximum identifier lengths (variable names, property names...)
+  # http://eslint.org/docs/rules/id-length
+  id-length: 0 # TODO(krotscheck): Discuss & Activate
+
+  # require identifiers to match the provided regular expression
+  # http://eslint.org/docs/rules/id-match
+  id-match: 0 # TODO(krotscheck): Discuss & Activate
 
   # This option sets a specific tab width for your code
   # http://eslint.org/docs/rules/indent
@@ -699,6 +739,10 @@ rules:
     - words: true
       nonwords: false
 
+  # require or disallow a space immediately following the // or /* in a comment
+  # http://eslint.org/docs/rules/spaced-comment
+  spaced-comment: 0 # TODO(krotscheck): Discuss & Activate
+
   # require regex literals to be wrapped in parentheses
   # http://eslint.org/docs/rules/wrap-regex
   wrap-regex: 0
@@ -707,9 +751,33 @@ rules:
   #############################################################################
   # ECMAScript 6 (All Off)
   #############################################################################
+  # require parens in arrow function arguments
+  # http://eslint.org/docs/rules/arrow-parens
+  arrow-parens: 0
+
+  # require space before/after arrow function's arrow
+  # http://eslint.org/docs/rules/arrow-spacing
+  arrow-spacing: 0
+
+  # verify calls of super() in constructors
+  # http://eslint.org/docs/rules/constructor-super
+  constructor-super: 0
+
   # enforce the spacing around the * in generator functions
   # http://eslint.org/docs/rules/generator-star-spacing
   generator-star-spacing: 0
+
+  # disallow modifying variables of class declarations
+  # http://eslint.org/docs/rules/no-class-assign
+  no-class-assign: 0
+
+  # disallow modifying variables that are declared using const
+  # http://eslint.org/docs/rules/no-const-assign
+  no-const-assign: 0
+
+  # disallow use of this/super before calling super() in constructors
+  # http://eslint.org/docs/rules/no-this-before-super
+  no-this-before-super: 0
 
   # require let or const instead of var
   # http://eslint.org/docs/rules/no-var
@@ -723,6 +791,17 @@ rules:
   # http://eslint.org/docs/rules/prefer-const
   prefer-const: 0
 
+  # suggest using the spread operator instead of .apply().
+  # http://eslint.org/docs/rules/prefer-spread
+  prefer-spread: 0
+
+  # suggest using Reflect methods where applicable
+  # http://eslint.org/docs/rules/prefer-reflect
+  prefer-reflect: 0
+
+  # disallow generator functions that do not have yield
+  # http://eslint.org/docs/rules/require-yield
+  require-yield: 0
 
   #############################################################################
   # Legacy
