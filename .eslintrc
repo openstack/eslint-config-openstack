@@ -514,6 +514,10 @@ rules:
   # http://eslint.org/docs/rules/array-bracket-spacing
   array-bracket-spacing: 0 # TODO(krotscheck): Discuss & Activate
 
+  # disallow or enforce spaces inside of single line blocks
+  # http://eslint.org/docs/rules/block-spacing
+  block-spacing: 0 # TODO(krotscheck): Discuss & Activate
+
   # Enforce one true brace style
   # http://eslint.org/docs/rules/brace-style
   brace-style: 0 # TODO(krotscheck): Discuss & Activate
@@ -775,6 +779,10 @@ rules:
   # http://eslint.org/docs/rules/no-const-assign
   no-const-assign: 0
 
+  # disallow duplicate name in class members
+  # http://eslint.org/docs/rules/no-dupe-class-members
+  no-dupe-class-members: 0
+
   # disallow use of this/super before calling super() in constructors
   # http://eslint.org/docs/rules/no-this-before-super
   no-this-before-super: 0
@@ -787,6 +795,10 @@ rules:
   # http://eslint.org/docs/rules/object-shorthand
   object-shorthand: 0
 
+  # suggest using arrow functions as callbacks
+  # http://eslint.org/docs/rules/prefer-arrow-callback
+  prefer-arrow-callback: 0
+
   # suggest using of const declaration for variables that are never modified after declared
   # http://eslint.org/docs/rules/prefer-const
   prefer-const: 0
@@ -798,6 +810,10 @@ rules:
   # suggest using Reflect methods where applicable
   # http://eslint.org/docs/rules/prefer-reflect
   prefer-reflect: 0
+
+  # suggest using template literals instead of strings concatenation
+  # http://eslint.org/docs/rules/prefer-template
+  prefer-template: 0
 
   # disallow generator functions that do not have yield
   # http://eslint.org/docs/rules/require-yield
