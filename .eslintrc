@@ -215,7 +215,7 @@ rules:
 
   # Require the use of === and !==
   # http://eslint.org/docs/rules/eqeqeq
-  eqeqeq: 0 # TODO(krotscheck): Discuss & Activate
+  eqeqeq: 2
 
   # Make sure for-in loops have an if statement
   # http://eslint.org/docs/rules/guard-for-in
