@@ -173,7 +173,7 @@ rules:
 
   # Avoid code that looks like two expressions but is actually one
   # http://eslint.org/docs/rules/no-unexpected-multiline
-  no-unexpected-multiline: 0 # TODO(krotscheck): Discuss & Activate
+  no-unexpected-multiline: 0
 
   #############################################################################
   # Best Practices
@@ -203,7 +203,7 @@ rules:
 
   # Require default case in switch statements
   # http://eslint.org/docs/rules/default-case
-  default-case: 0 # TODO(krotscheck): Discuss & Activate
+  default-case: 0
 
   # encourages use of dot notation whenever possible
   # http://eslint.org/docs/rules/dot-notation
@@ -235,7 +235,7 @@ rules:
 
   # Disallow else after a return in an if
   # http://eslint.org/docs/rules/no-else-return
-  no-else-return: 0 # TODO(krotscheck): Discuss & Activate
+  no-else-return: 0
 
   # Disallow use of labels for anything other then loops and switches
   # http://eslint.org/docs/rules/no-empty-label
@@ -267,7 +267,7 @@ rules:
 
   # disallow the type conversions with shorter notations
   # http://eslint.org/docs/rules/no-implicit-coercion
-  no-implicit-coercion: 0 # TODO(krotscheck): Discuss & Activate
+  no-implicit-coercion: 0
 
   # Disallow use of eval()-like methods
   # http://eslint.org/docs/rules/no-implied-eval
@@ -275,7 +275,7 @@ rules:
 
   # disallow this keywords outside of classes or class-like objects
   # http://eslint.org/docs/rules/no-invalid-this
-  no-invalid-this: 0 # TODO(krotscheck): Discuss & Activate
+  no-invalid-this: 0
 
   # Disallow usage of __iterator__ property
   # http://eslint.org/docs/rules/no-iterator
@@ -327,7 +327,7 @@ rules:
 
   # Disallow reassignment of function parameters
   # http://eslint.org/docs/rules/no-param-reassign
-  no-param-reassign: 0 # TODO(krotscheck): Discuss & Activate
+  no-param-reassign: 0
 
   # Disallow use of process.env
   #
@@ -371,7 +371,7 @@ rules:
 
   # disallow unnecessary .call() and .apply()
   # http://eslint.org/docs/rules/no-useless-call
-  no-useless-call: 0 # TODO(krotscheck): Discuss & Activate
+  no-useless-call: 0
 
   # disallow unnecessary concatenation of literals or template literals
   # http://eslint.org/docs/rules/no-useless-concat
@@ -428,7 +428,7 @@ rules:
   #############################################################################
   # enforce or disallow variable initializations at definition
   # http://eslint.org/docs/rules/init-declarations
-  init-declarations: 0 # TODO(krotscheck): Discuss & Activate
+  init-declarations: 0
 
   # Disallow the catch clause parameter name being the same as a variable in
   # the outer scope
@@ -449,7 +449,7 @@ rules:
 
   # Disallow declaration of variables already declared in the outer scope
   # http://eslint.org/docs/rules/no-shadow
-  no-shadow: 0 # TODO(krotscheck): Discuss & Activate
+  no-shadow: 0
 
   # Disallow use of undefined when initializing variables
   # http://eslint.org/docs/rules/no-undef-init
@@ -457,7 +457,7 @@ rules:
 
   # Disallow use of undeclared variables unless mentioned in a /*global */ block
   # http://eslint.org/docs/rules/no-undef
-  no-undef: 0 # TODO(krotscheck): Discuss & Activate
+  no-undef: 0
 
   # Disallow use of undefined variable
   # http://eslint.org/docs/rules/no-undefined
@@ -520,11 +520,11 @@ rules:
 
   # enforce spacing inside array brackets
   # http://eslint.org/docs/rules/array-bracket-spacing
-  array-bracket-spacing: 0 # TODO(krotscheck): Discuss & Activate
+  array-bracket-spacing: 0
 
   # disallow or enforce spaces inside of single line blocks
   # http://eslint.org/docs/rules/block-spacing
-  block-spacing: 0 # TODO(krotscheck): Discuss & Activate
+  block-spacing: 0
 
   # Enforce one true brace style
   # http://eslint.org/docs/rules/brace-style
@@ -538,7 +538,7 @@ rules:
 
   # Enforce spacing before and after comma
   # http://eslint.org/docs/rules/comma-spacing
-  comma-spacing: 0 # TODO(krotscheck): Discuss & Activate
+  comma-spacing: 0
 
   # Enforce one true comma style
   # http://eslint.org/docs/rules/comma-style
@@ -546,12 +546,12 @@ rules:
 
   # require or disallow padding inside computed properties.
   # http://eslint.org/docs/rules/computed-property-spacing
-  computed-property-spacing: 0 # TODO(krotscheck): Discuss & Activate
+  computed-property-spacing: 0
 
   # Enforces consistent naming when capturing the current execution context
   # http://eslint.org/docs/rules/consistent-this
   consistent-this:
-    - 0 # TODO(krotscheck): Discuss & Activate
+    - 0
     - "self"
 
   # Enforce newline at the end of file, with no multiple empty lines
@@ -560,7 +560,7 @@ rules:
 
   # Require function expressions to have a name
   # http://eslint.org/docs/rules/func-names
-  func-names: 0 # TODO(krotscheck): Discuss & Activate
+  func-names: 0
 
   # Enforces use of function declarations or expressions
   # http://eslint.org/docs/rules/func-style
@@ -568,11 +568,11 @@ rules:
 
   # this option enforces minimum and maximum identifier lengths (variable names, property names...)
   # http://eslint.org/docs/rules/id-length
-  id-length: 0 # TODO(krotscheck): Discuss & Activate
+  id-length: 0
 
   # require identifiers to match the provided regular expression
   # http://eslint.org/docs/rules/id-match
-  id-match: 0 # TODO(krotscheck): Discuss & Activate
+  id-match: 0
 
   # This option sets a specific tab width for your code
   # http://eslint.org/docs/rules/indent
@@ -587,11 +587,11 @@ rules:
 
   # Enforces spacing between keys and values in object literal properties
   # http://eslint.org/docs/rules/key-spacing
-  key-spacing: 0 # TODO(krotscheck): Discuss & Activate
+  key-spacing: 0
 
   # Enforces empty lines around comments
   # http://eslint.org/docs/rules/lines-around-comment
-  lines-around-comment: 0 # TODO(krotscheck): Discuss & Activate
+  lines-around-comment: 0
 
   # Disallow mixed 'LF' and 'CRLF' as linebreaks
   # http://eslint.org/docs/rules/linebreak-style
@@ -602,12 +602,12 @@ rules:
   # Specify the maximum depth callbacks can be nested
   # http://eslint.org/docs/rules/max-nested-callbacks
   max-nested-callbacks:
-    - 0 # TODO(krotscheck): Discuss & Activate
+    - 0
     - 3
 
   # Require a capital letter for constructors
   # http://eslint.org/docs/rules/new-cap
-  new-cap: 0 # TODO(krotscheck): Discuss & Activate
+  new-cap: 0
 
   # Disallow the omission of parentheses when invoking a constructor
   # http://eslint.org/docs/rules/new-parens
@@ -619,7 +619,7 @@ rules:
 
   # Disallow use of the Array constructor
   # http://eslint.org/docs/rules/no-array-constructor
-  no-array-constructor: 0 # TODO(krotscheck): Discuss & Activate
+  no-array-constructor: 0
 
   # Disallow use of the continue statement
   # http://eslint.org/docs/rules/no-continue
@@ -657,7 +657,7 @@ rules:
 
   # Disallow space between function identifier and application
   # http://eslint.org/docs/rules/no-spaced-func
-  no-spaced-func: 0 # TODO(krotscheck): Discuss & Activate
+  no-spaced-func: 0
 
   # Disallow the use of ternary operators
   # http://eslint.org/docs/rules/no-ternary
@@ -669,7 +669,7 @@ rules:
 
   # Disallow dangling underscores in identifiers
   # http://eslint.org/docs/rules/no-underscore-dangle
-  no-underscore-dangle: 0 # TODO(krotscheck): Discuss & Activate
+  no-underscore-dangle: 0
 
   # Disallow the use of Boolean literals in conditional expressions
   # http://eslint.org/docs/rules/no-unneeded-ternary
@@ -677,7 +677,7 @@ rules:
 
   # Require or disallow padding inside curly braces
   # http://eslint.org/docs/rules/object-curly-spacing
-  object-curly-spacing: 0 # TODO(krotscheck): Discuss & Activate
+  object-curly-spacing: 0
 
   # Allow or disallow one variable declaration per function
   # http://eslint.org/docs/rules/one-var
@@ -689,7 +689,7 @@ rules:
   # Prevent assignment operator shorthand where possible
   # http://eslint.org/docs/rules/operator-assignment
   operator-assignment:
-    - 0 # TODO(krotscheck): Discuss & Activate
+    - 0
     - "never"
 
   # Enforce operators to be placed before or after line breaks
@@ -748,7 +748,7 @@ rules:
   # Require or disallow space before function opening parenthesis
   # http://eslint.org/docs/rules/space-before-function-paren
   space-before-function-paren:
-    - 0 # TODO(krotscheck): Discuss & Activate
+    - 0
     - "always"
 
   # require or disallow spaces inside parentheses
@@ -774,7 +774,7 @@ rules:
 
   # require or disallow a space immediately following the // or /* in a comment
   # http://eslint.org/docs/rules/spaced-comment
-  spaced-comment: 0 # TODO(krotscheck): Discuss & Activate
+  spaced-comment: 0
 
   # require regex literals to be wrapped in parentheses
   # http://eslint.org/docs/rules/wrap-regex
