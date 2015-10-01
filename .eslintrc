@@ -457,7 +457,7 @@ rules:
 
   # Disallow use of undefined variable
   # http://eslint.org/docs/rules/no-undefined
-  no-undefined: 0 # TODO(krotscheck): Discuss & Activate
+  no-undefined: 2
 
   # Disallow declaration of variables that are not used in the code
   # http://eslint.org/docs/rules/no-unused-vars
