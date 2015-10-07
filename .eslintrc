@@ -518,7 +518,7 @@ rules:
 
   # Enforce one true brace style
   # http://eslint.org/docs/rules/brace-style
-  brace-style: 0 # TODO(krotscheck): Discuss & Activate
+  brace-style: 2
 
   # Require camel case names
   # http://eslint.org/docs/rules/camelcase
