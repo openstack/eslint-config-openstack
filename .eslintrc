@@ -690,9 +690,7 @@ rules:
 
   # Specify whether backticks, double or single quotes should be used
   # http://eslint.org/docs/rules/quotes
-  quotes:
-    - 0 # TODO(krotscheck): Discuss & Activate
-    - 'single'
+  quotes: 0
 
   # Enforce spacing before and after semicolons
   # http://eslint.org/docs/rules/semi-spacing
