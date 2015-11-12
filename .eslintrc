@@ -727,7 +727,9 @@ rules:
 
   # require or disallow spaces inside parentheses
   # http://eslint.org/docs/rules/space-in-parens
-  space-in-parens: 0 # TODO(krotscheck): Discuss & Activate
+  space-in-parens:
+    - 2
+    - "never"
 
   # Require spaces around operators
   # http://eslint.org/docs/rules/space-infix-ops
