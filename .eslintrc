@@ -373,6 +373,10 @@ rules:
   # http://eslint.org/docs/rules/no-useless-call
   no-useless-call: 0 # TODO(krotscheck): Discuss & Activate
 
+  # disallow unnecessary concatenation of literals or template literals
+  # http://eslint.org/docs/rules/no-useless-concat
+  no-useless-concat: 0
+
   # Disallow use of void operator
   # http://eslint.org/docs/rules/no-void
   no-void: 2
@@ -477,6 +481,10 @@ rules:
   # http://eslint.org/docs/rules/callback-return
   callback-return: 2
 
+  # disallow require() outside of the top-level module scope
+  # http://eslint.org/docs/rules/global-require
+  global-require: 0
+
   # Enforces error handling in callbacks
   # http://eslint.org/docs/rules/handle-callback-err
   handle-callback-err: 2
@@ -573,6 +581,10 @@ rules:
     - 2
     - SwitchCase: 1
 
+  # specify whether double or single quotes should be used in JSX attributes
+  # http://eslint.org/docs/rules/jsx-quotes
+  jsx-quotes: 0
+
   # Enforces spacing between keys and values in object literal properties
   # http://eslint.org/docs/rules/key-spacing
   key-spacing: 0 # TODO(krotscheck): Discuss & Activate
@@ -639,6 +651,10 @@ rules:
   # http://eslint.org/docs/rules/no-new-object
   no-new-object: 1
 
+  # Disallow certain syntax (no-restricted-syntax)
+  # http://eslint.org/docs/rules/no-restricted-syntax
+  no-restricted-syntax: 0
+
   # Disallow space between function identifier and application
   # http://eslint.org/docs/rules/no-spaced-func
   no-spaced-func: 0 # TODO(krotscheck): Discuss & Activate
@@ -692,6 +708,10 @@ rules:
   # http://eslint.org/docs/rules/quotes
   quotes: 0
 
+  # Require JSDoc comment
+  # http://eslint.org/docs/rules/require-jsdoc
+  require-jsdoc: 0
+
   # Enforce spacing before and after semicolons
   # http://eslint.org/docs/rules/semi-spacing
   semi-spacing:
@@ -712,6 +732,10 @@ rules:
   # Require a space after certain keywords
   # http://eslint.org/docs/rules/space-after-keywords
   space-after-keywords: 2
+
+  # Require a space before certain keywords
+  # http://eslint.org/docs/rules/space-before-keywords
+  space-before-keywords: 0
 
   # require or disallow space before blocks
   # http://eslint.org/docs/rules/space-before-blocks
