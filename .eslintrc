@@ -702,7 +702,9 @@ rules:
 
   # Require quotes around object literal property names
   # http://eslint.org/docs/rules/quote-props
-  quote-props: 0 # TODO(krotscheck): Discuss & Activate
+  quote-props:
+    - 2
+    - "as-needed"
 
   # Specify whether backticks, double or single quotes should be used
   # http://eslint.org/docs/rules/quotes
