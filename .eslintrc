@@ -231,7 +231,7 @@ rules:
 
   # disallow lexical declarations in case clauses
   # http://eslint.org/docs/rules/no-case-declarations
-  no-case-declarations: 0
+  no-case-declarations: 2
 
   # Disallow division operators explicitly at beginning of regular expression
   # http://eslint.org/docs/rules/no-div-regex
