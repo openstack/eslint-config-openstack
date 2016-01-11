@@ -9,7 +9,17 @@ Even though eslint permits overriding rules on a per-project basis, it should be
 project to stay as close to the common guidelines as possible.
 
 ## Installation
+To add these rules to your project, follow these steps.
 
 1. `npm install --save-dev eslint eslint-config-openstack`
-2. Add `extends: "openstack"` to your `.eslintrc`
+2. Add `extends: "openstack"` to your `.eslintrc` yaml file
 
+## Approval Policies
+
+If you would like to contribute, please follow [OpenStack's contribution guidelines](https://wiki.openstack.org/wiki/How_To_Contribute).
+
+
+#### Rules only land with consensus
+Patches that activate, deactivate, or modify rules, should only be merged if a consensus of
+reviewers is reached. In this case, consensus means at least five +1 votes, with no -1 votes. Cores 
+may not override and/or ignore -1 votes.
