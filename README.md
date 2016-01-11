@@ -27,3 +27,7 @@ may not override and/or ignore -1 votes.
 #### Library upgrades require two cores
 Patches that upgrade eslint only require two core approvers to land. These patches should add new
 upstream rules in a deactivated state, and delete any deprecated rules.
+
+#### Policy upgrades require all cores
+Updates to policies and governance on this project require +2 votes from all direct cores on the 
+project. Core votes from the parent OpenStack QA project are optional.
