@@ -461,7 +461,7 @@ rules:
 
   # Disallow use of undefined variable
   # http://eslint.org/docs/rules/no-undefined
-  no-undefined: 2
+  no-undefined: 0
 
   # Disallow declaration of variables that are not used in the code
   # http://eslint.org/docs/rules/no-unused-vars
