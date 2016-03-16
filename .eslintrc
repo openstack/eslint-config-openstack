@@ -640,7 +640,7 @@ rules:
 
   # enforce spacing before and after keywords
   # http://eslint.org/docs/rules/keyword-spacing
-  keyword-spacing: 0
+  keyword-spacing: 2
 
   # Enforces empty lines around comments
   # http://eslint.org/docs/rules/lines-around-comment
