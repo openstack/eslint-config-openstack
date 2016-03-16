@@ -247,7 +247,7 @@ rules:
 
   # disallow use of empty destructuring patterns
   # http://eslint.org/docs/rules/no-empty-pattern
-  no-empty-pattern: 0
+  no-empty-pattern: 2
 
   # Disallow comparisons to null without a type-checking operator
   # http://eslint.org/docs/rules/no-eq-null
