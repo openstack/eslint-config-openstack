@@ -229,6 +229,10 @@ rules:
   # http://eslint.org/docs/rules/no-caller
   no-caller: 2
 
+  # disallow lexical declarations in case clauses
+  # http://eslint.org/docs/rules/no-case-declarations
+  no-case-declarations: 0
+
   # Disallow division operators explicitly at beginning of regular expression
   # http://eslint.org/docs/rules/no-div-regex
   no-div-regex: 2
@@ -240,6 +244,10 @@ rules:
   # Disallow use of labels for anything other then loops and switches
   # http://eslint.org/docs/rules/no-empty-label
   no-empty-label: 2
+
+  # disallow use of empty destructuring patterns
+  # http://eslint.org/docs/rules/no-empty-pattern
+  no-empty-pattern: 0
 
   # Disallow comparisons to null without a type-checking operator
   # http://eslint.org/docs/rules/no-eq-null
@@ -292,6 +300,10 @@ rules:
   # Disallow creation of functions within loops
   # http://eslint.org/docs/rules/no-loop-func
   no-loop-func: 2
+
+  # disallow the use of magic numbers
+  # http://eslint.org/docs/rules/no-magic-numbers
+  no-magic-numbers: 0
 
   # Disallow use of multiple spaces
   # http://eslint.org/docs/rules/no-multi-spaces
@@ -648,6 +660,10 @@ rules:
     - 2
     - max: 1
 
+  # disallow negated conditions
+  # http://eslint.org/docs/rules/no-negated-condition
+  no-negated-condition: 0
+
   # Disallow nested ternary expressions
   # http://eslint.org/docs/rules/no-nested-ternary
   no-nested-ternary: 0
@@ -789,6 +805,10 @@ rules:
   #############################################################################
   # ECMAScript 6 (All Off)
   #############################################################################
+  # require braces in arrow function body
+  # http://eslint.org/docs/rules/arrow-body-style
+  arrow-body-style: 0
+
   # require parens in arrow function arguments
   # http://eslint.org/docs/rules/arrow-parens
   arrow-parens: 0
@@ -804,6 +824,10 @@ rules:
   # enforce the spacing around the * in generator functions
   # http://eslint.org/docs/rules/generator-star-spacing
   generator-star-spacing: 0
+
+  # disallow arrow functions where a condition is expected
+  # http://eslint.org/docs/rules/no-arrow-condition
+  no-arrow-condition: 0
 
   # disallow modifying variables of class declarations
   # http://eslint.org/docs/rules/no-class-assign
