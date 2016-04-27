@@ -23,3 +23,7 @@ If you would like to contribute, please follow [OpenStack's contribution guideli
 Patches that activate, deactivate, or modify rules, should only be merged if a consensus of
 reviewers is reached. In this case, consensus means at least five +1 votes, with no -1 votes. Cores 
 may not override and/or ignore -1 votes.
+
+#### Library upgrades require two cores
+Patches that upgrade eslint only require two core approvers to land. These patches should add new
+upstream rules in a deactivated state, and delete any deprecated rules.
