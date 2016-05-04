@@ -31,3 +31,9 @@ upstream rules in a deactivated state, and delete any deprecated rules.
 #### Policy upgrades require all cores
 Updates to policies and governance on this project require +2 votes from all direct cores on the 
 project. Core votes from the parent OpenStack QA project are optional.
+
+#### Patches should be abandoned after a month of inactivity
+Cores should attempt to keep the list of extant patches small and managable. As such, they should
+talk to any author whose patch has failed to garner the necessary support, and has experienced 
+one month of inactivity. Reasonable notice should be given to the author before a patch is 
+abandoned.
