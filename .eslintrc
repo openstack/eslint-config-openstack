@@ -381,7 +381,7 @@ rules:
 
   # Disallow assignments where both sides are exactly the same
   # http://eslint.org/docs/rules/no-self-assign
-  no-self-assign: 0
+  no-self-assign: 2
 
   # Disallow comparisons where both sides are exactly the same
   # http://eslint.org/docs/rules/no-self-compare
