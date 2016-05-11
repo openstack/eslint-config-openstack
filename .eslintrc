@@ -863,7 +863,7 @@ rules:
 
   # verify calls of super() in constructors
   # http://eslint.org/docs/rules/constructor-super
-  constructor-super: 0
+  constructor-super: 2
 
   # enforce the spacing around the * in generator functions
   # http://eslint.org/docs/rules/generator-star-spacing
