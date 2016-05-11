@@ -46,7 +46,7 @@ env:
   # OpenStack uses Jasmine, not Mocha.
   # mocha: false
 
-  # Openstack does not support ES6 at its present level of adoption.
+  # Enables ES6 flags in ecmaFeatures.
   # es6: false
 
 
@@ -847,7 +847,7 @@ rules:
 
 
   #############################################################################
-  # ECMAScript 6 (All Off)
+  # ECMAScript 6
   #############################################################################
   # require braces in arrow function body
   # http://eslint.org/docs/rules/arrow-body-style
@@ -976,28 +976,29 @@ rules:
   no-plusplus: 0
 
 
-# We only support ECMA5, disable everything else.
-ecmaFeatures:
-  arrowFunctions: false
-  binaryLiterals: false
-  blockBindings: false
-  classes: false
-  defaultParams: false
-  destructuring: false
-  forOf: false
-  generators: false
-  modules: false
-  objectLiteralComputedProperties: false
-  objectLiteralDuplicateProperties: false
-  objectLiteralShorthandMethods: false
-  objectLiteralShorthandProperties: false
-  octalLiterals: false
-  regexUFlag: false
-  regexYFlag: false
-  restParams: false
-  spread: false
-  superInFunctions: false
-  templateStrings: false
-  unicodeCodePointEscapes: false
-  globalReturn: false
-  jsx: false
+# Parser options are used to specify language-level options which you want to
+# supprt. The defaults enable ECMAScript 5, which may be overridden on a per
+# project basis. Please enable these settings to meet the needs of your own
+# project.
+#
+parserOptions:
+
+  # The ECMAScript version. Supported values are: 3, 5, 6, 7.
+  # ecmaVersion: 5
+
+  # Set sourceType to "module" if your project uses ES6 modules.
+  # sourceType: script
+
+  ecmaFeatures:
+
+    # Permit return statements in the global scope.
+    globalReturn: false
+
+    # Enable global strict mode (if ecmaVersion is 5 or greater)
+    impliedStrict: false
+
+    # Enable JSX
+    jsx: false
+
+    # Enable support for the experimental object rest/spread properties
+    experimentalObjectRestSpread: false
