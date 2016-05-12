@@ -871,7 +871,7 @@ rules:
 
   # disallow modifying variables of class declarations
   # http://eslint.org/docs/rules/no-class-assign
-  no-class-assign: 0
+  no-class-assign: 2
 
   # disallow arrow functions where they could be confused with comparisons
   # http://eslint.org/docs/rules/no-confusing-arrow
