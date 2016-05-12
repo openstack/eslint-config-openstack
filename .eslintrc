@@ -855,7 +855,7 @@ rules:
 
   # require parens in arrow function arguments
   # http://eslint.org/docs/rules/arrow-parens
-  arrow-parens: 0
+  arrow-parens: 2
 
   # require space before/after arrow function's arrow
   # http://eslint.org/docs/rules/arrow-spacing
