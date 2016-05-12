@@ -895,7 +895,7 @@ rules:
 
   # disallow use of this/super before calling super() in constructors
   # http://eslint.org/docs/rules/no-this-before-super
-  no-this-before-super: 0
+  no-this-before-super: 2
 
   # disallow unnecessary constructor
   # http://eslint.org/docs/rules/no-useless-constructor
