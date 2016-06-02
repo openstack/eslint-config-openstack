@@ -883,7 +883,7 @@ rules:
 
   # disallow duplicate name in class members
   # http://eslint.org/docs/rules/no-dupe-class-members
-  no-dupe-class-members: 0
+  no-dupe-class-members: 2
 
   # disallow use of the new operator with the Symbol object
   # http://eslint.org/docs/rules/no-new-symbol
