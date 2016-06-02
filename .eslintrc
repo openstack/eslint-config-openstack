@@ -879,7 +879,7 @@ rules:
 
   # disallow modifying variables that are declared using const
   # http://eslint.org/docs/rules/no-const-assign
-  no-const-assign: 0
+  no-const-assign: 2
 
   # disallow duplicate name in class members
   # http://eslint.org/docs/rules/no-dupe-class-members
