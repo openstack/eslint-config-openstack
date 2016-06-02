@@ -859,7 +859,7 @@ rules:
 
   # require space before/after arrow function's arrow
   # http://eslint.org/docs/rules/arrow-spacing
-  arrow-spacing: 0
+  arrow-spacing: 2
 
   # verify calls of super() in constructors
   # http://eslint.org/docs/rules/constructor-super
