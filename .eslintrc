@@ -397,7 +397,7 @@ rules:
 
   # disallow unmodified conditions of loops
   # http://eslint.org/docs/rules/no-unmodified-loop-condition
-  no-unmodified-loop-condition: 0
+  no-unmodified-loop-condition: 2
 
   # Disallow usage of expressions in statement position
   # http://eslint.org/docs/rules/no-unused-expressions
