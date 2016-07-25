@@ -15,8 +15,17 @@
  */
 
 /**
- * The default module for this package simply reads in the .eslintrc yaml file, and returns it
- * as a module.
+ * This is a helper module used to load and export YAML-based ESLint config
  */
 
-module.exports = require('./load-config')('.eslintrc');
+var yaml = require('js-yaml');
+var fs = require('fs');
+var path = require('path');
+
+module.exports = function(filename) {
+  'use strict';
+
+  var rcPath = path.join(__dirname, filename);
+  var fileContent = fs.readFileSync(rcPath); // eslint-disable-line no-sync
+  return yaml.safeLoad(fileContent);
+};

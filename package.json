@@ -5,7 +5,10 @@
   "main": "index.js",
   "files": [
     "index.js",
+    "es2015.js",
+    "load-config.js",
     ".eslintrc",
+    ".eslintrc-es2015",
     "LICENSE",
     "README.md"
   ],

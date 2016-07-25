@@ -12,7 +12,8 @@ project to stay as close to the common guidelines as possible.
 To add these rules to your project, follow these steps.
 
 1. `npm install --save-dev eslint eslint-config-openstack`
-2. Add `extends: "openstack"` to your `.eslintrc` yaml file
+2. Add `extends: "openstack"` to your `.eslintrc` yaml file. If your project is using ES2015, add
+   `extends: "openstack/es2015"` instead.
 
 ## Approval Policies
 
@@ -29,11 +30,11 @@ Patches that upgrade eslint only require two core approvers to land. These patch
 upstream rules in a deactivated state, and delete any deprecated rules.
 
 #### Policy upgrades require all cores
-Updates to policies and governance on this project require +2 votes from all direct cores on the 
+Updates to policies and governance on this project require +2 votes from all direct cores on the
 project. Core votes from the parent OpenStack QA project are optional.
 
 #### Patches should be abandoned after a month of inactivity
 Cores should attempt to keep the list of extant patches small and managable. As such, they should
-talk to any author whose patch has failed to garner the necessary support, and has experienced 
-one month of inactivity. Reasonable notice should be given to the author before a patch is 
+talk to any author whose patch has failed to garner the necessary support, and has experienced
+one month of inactivity. Reasonable notice should be given to the author before a patch is
 abandoned.
