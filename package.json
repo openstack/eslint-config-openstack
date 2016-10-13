@@ -14,7 +14,8 @@
   ],
   "scripts": {
     "test": "jasmine",
-    "lint": "eslint ./"
+    "lint": "eslint ./",
+    "docs": "cd ./doc && make html"
   },
   "repository": {
     "type": "git",
