@@ -5,7 +5,7 @@ How to release eslint-config-openstack
 Only follow these steps if you have authority to release a version of eslint-config-openstack.
 
 1. Ensure that you have gpg set up locally.
-   If you do not currently have gog installed:
+   If you do not currently have gpg installed:
 
    `brew install gpg gpg2`
 
