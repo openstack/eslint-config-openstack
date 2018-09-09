@@ -1,0 +1,4 @@
+- project:
+    templates:
+      - nodejs4-jobs
+      - nodejs4-docs
