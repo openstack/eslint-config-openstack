@@ -36,7 +36,7 @@ Project Hosting Details
 -------------------------
 
 Mailing list (prefix subjects with ``[eslint-config-openstack]`` for faster responses)
-    http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-dev
+    http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discuss
 
 Code Hosting
     https://github.com/openstack/eslint-config-openstack

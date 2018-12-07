@@ -26,7 +26,7 @@
     "eslintconfig",
     "openstack"
   ],
-  "author": "OpenStack <openstack-dev@lists.openstack.org>",
+  "author": "OpenStack <openstack-discuss@lists.openstack.org>",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://bugs.launchpad.net/eslint-config-openstack"
