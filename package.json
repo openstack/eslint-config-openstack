@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://git.openstack.org/openstack/eslint-config-openstack"
+    "url": "https://git.openstack.org/openstack/eslint-config-openstack"
   },
   "keywords": [
     "eslint",
