@@ -13,6 +13,15 @@ move between projects smoothly, and overall make the code more maintainable.
 Even though eslint permits overriding rules on a per-project basis, it should be
 the goal of every project to stay as close to the common guidelines as possible.
 
+For Contributor
+===============
+If you are a new contributor to eslint-config-openstack please refer: :doc:`contributor/contributing`
+
+.. toctree::
+   :hidden:
+
+   contributor/contributing
+
 Administrator's Guide
 =====================
 
