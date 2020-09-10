@@ -15,7 +15,7 @@
   "scripts": {
     "test": "jasmine",
     "lint": "eslint ./",
-    "docs": "cd ./doc && make html"
+    "docs": "tox -e docs"
   },
   "repository": {
     "type": "git",

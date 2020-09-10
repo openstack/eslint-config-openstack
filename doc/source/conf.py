@@ -22,9 +22,14 @@ sys.path.insert(0, os.path.abspath('../..'))
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
     'sphinx.ext.autodoc',
+    'sphinxcontrib.rsvgconverter',
     #'sphinx.ext.intersphinx',
-    'oslosphinx'
+    'openstackdocstheme'
 ]
+
+# openstackdocstheme options
+openstackdocs_repo_name = 'openstack/eslint-config-openstack'
+openstackdocs_pdf_link = True
 
 # autodoc generation is a bit aggressive and a nuisance when doing heavy
 # text edit cycles.
@@ -55,7 +60,7 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  Major themes that come with
 # Sphinx are currently 'default' and 'sphinxdoc'.
 # html_theme_path = ["."]
-# html_theme = '_theme'
+html_theme = 'openstackdocs'
 # html_static_path = ['static']
 
 # Output file base name for HTML help builder.
@@ -66,10 +71,15 @@ htmlhelp_basename = '%sdoc' % project
 # [howto/manual]).
 latex_documents = [
     ('index',
-     '%s.tex' % project,
-     u'%s Documentation' % project,
+     'doc-%s.tex' % project,
+     u'Eslint-config-openstack Documentation',
      u'OpenStack Foundation', 'manual'),
 ]
 
 # Example configuration for intersphinx: refer to the Python standard library.
 #intersphinx_mapping = {'http://docs.python.org/': None}
+
+latex_use_xindy = False
+latex_elements = {
+    'extraclassoptions': 'openany,oneside',
+}

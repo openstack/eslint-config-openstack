@@ -10,9 +10,6 @@ project, the following will help get you started.
 Contributor License Agreement
 -----------------------------
 
-.. index::
-   single: license; agreement
-
 In order to contribute to the project, you need to have
 signed OpenStack's contributor's agreement.
 
