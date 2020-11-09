@@ -1,6 +1,7 @@
 - project:
     templates:
       - nodejs14-jobs
+      - publish-openstack-docs-pti
     check:
       jobs:
         - nodejs-run-docs:
