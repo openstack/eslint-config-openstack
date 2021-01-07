@@ -42,8 +42,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'eslint-config-openstack'
-copyright = u'2016, OpenStack Foundation'
+project = 'eslint-config-openstack'
+copyright = '2016, OpenStack Foundation'
 
 # If true, '()' will be appended to :func: etc. cross-reference text.
 add_function_parentheses = True
@@ -72,8 +72,8 @@ htmlhelp_basename = '%sdoc' % project
 latex_documents = [
     ('index',
      'doc-%s.tex' % project,
-     u'Eslint-config-openstack Documentation',
-     u'OpenStack Foundation', 'manual'),
+     'Eslint-config-openstack Documentation',
+     'OpenStack Foundation', 'manual'),
 ]
 
 # Example configuration for intersphinx: refer to the Python standard library.
