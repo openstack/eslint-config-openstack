@@ -1,4 +1,15 @@
 - project:
     templates:
-      - nodejs4-jobs
-      - nodejs10-docs
+      - nodejs14-jobs
+    check:
+      jobs:
+        - nodejs-run-docs:
+            vars:
+              node_version: 14
+            nodeset: ubuntu-focal
+    gate:
+      jobs:
+        - nodejs-run-docs:
+            vars:
+              node_version: 14
+            nodeset: ubuntu-focal
