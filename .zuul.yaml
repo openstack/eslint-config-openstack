@@ -1,16 +1,5 @@
 - project:
     templates:
-      - nodejs14-jobs
+      - nodejs16-jobs
+      - nodejs16-docs
       - publish-openstack-docs-pti
-    check:
-      jobs:
-        - nodejs-run-docs:
-            vars:
-              node_version: 14
-            nodeset: ubuntu-focal
-    gate:
-      jobs:
-        - nodejs-run-docs:
-            vars:
-              node_version: 14
-            nodeset: ubuntu-focal
