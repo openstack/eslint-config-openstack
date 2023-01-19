@@ -1,5 +1,5 @@
 - project:
     templates:
-      - nodejs16-jobs
-      - nodejs16-docs
+      - nodejs18-jobs
+      - nodejs18-docs
       - publish-openstack-docs-pti
